@@ -1,0 +1,98 @@
+html,
+body {
+    height: 100%;
+}
+
+main {
+    padding-bottom: 100px;
+}
+header {
+    box-shadow: 0 0 10px rgba(0,0,0,0.4) !important;
+}
+
+footer {
+    margin-top: -100px;
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4) !important;
+}
+
+.wrap {
+    min-height: 100%;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.mobile {
+    display: inline-block;
+}
+
+.logo img {
+    height: 72px;
+}
+
+.menu-wrap {
+    margin: 40px auto;
+}
+.menu {
+    font-size: 16px;
+    padding: 5px 40px;
+}
+
+.sign-button {
+    padding: 7px 40px;
+    font-size: 17px;
+}
+
+.description {
+    margin-bottom: 100px;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+.footer-menu .menu-list ul {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.footer-menu .menu-list ul li{
+    list-style-type: none;
+}
+
+.footer-menu .menu-list ul li a{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-menu .menu-list ul li a:hover {
+    color: #000;
+    cursor: pointer;
+}
+.description-text-login {
+    margin: 50px auto;
+}
+.description-text-register {
+    margin-bottom: 50px;
+}
+
+.card-body {
+    margin-bottom: 100px;
+}
+
+.required {
+    color: red;
+}
+
+.hint {
+    margin: 0 0 25px 25px;
+}
+
+.card-body.reset {
+    margin: 25px auto 830px;
+}

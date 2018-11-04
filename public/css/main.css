@@ -96,3 +96,15 @@ footer {
 .card-body.reset {
     margin: 25px auto 830px;
 }
+
+.login-submit {
+    margin-top: 50px;
+}
+
+.success-reset {
+    margin: 50px auto 0;
+}
+
+.btn-reset {
+    padding: 6px 50px 6px 20px;
+}

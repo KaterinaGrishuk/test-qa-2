@@ -26,19 +26,15 @@ class RegisterController extends Controller
     {
         $password = Hash::make($request->get('password'));
 
-        try {
-            User::create([
-                'firstName' => $request->get('firstName'),
-                'lastName' => $request->get('lastName'),
-                'phone' => $request->get('phone'),
-                'DateOfBirth' => new Carbon('01-01-1900'),
-                'email' => $request->get('email'),
-                'password' => $password,
-                'confirmPassword' => $password,
-            ]);
-        } catch (\Exception $e) {
-           return redirect()->route('registerIndex')->with(['message' => $e->getMessage()]);
-        }
+        User::create([
+            'firstName' => $request->get('firstName'),
+            'lastName' => $request->get('lastName'),
+            'phone' => $request->get('phone'),
+            'DateOfBirth' => new Carbon('01-01-1900'),
+            'email' => $request->get('email'),
+            'password' => $password,
+            'confirmPassword' => $password,
+        ]);
 
         return redirect()->route('registerIndex');
     }

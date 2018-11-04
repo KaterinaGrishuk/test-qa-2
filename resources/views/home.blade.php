@@ -31,6 +31,7 @@
                         Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.
                     </p>
                 </div>
+
                 <div class="d-flex justify-content-between">
                     <a href="{{ route('loginAction') }}" class="sign-button btn btn-primary">Sign In</a>
                     <a href="{{ route('registerAction') }}" class="sign-button menu btn btn-secondary">Sign Up</a>

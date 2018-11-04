@@ -30,18 +30,18 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
-
+                @if(session('message'))
+                    <div class="alert alert-danger" role="alert">
+                        {{ session('message') }}
+                    </div>
+                @endif
                 <div class="card-body">
                     <form method="POST" action="{{ route('loginAction') }}">
                         @csrf
                         <div class="form-group row">
-                            <label for="email"
-                                   class="col-sm-4 col-form-label text-md-right">{{ __('Email') }}</label>
-
-                            <div class="col-md-5">
-                                <input id="email" type="email"
-                                       class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email"
-                                       value="{{ old('email') }}">
+                            <div class="col-md-7 offset-md-2">
+                                <label for="email" class="col-sm-4 col-form-label text-md-left">{{ __('Email') }}</label>
+                                <input id="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }} offset-md-3 text-md-right" name="email" value="{{ old('email') }}">
 
                                 @if ($errors->has('email'))
                                     <span class="invalid-feedback" role="alert">
@@ -52,13 +52,9 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="password"
-                                   class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
-
-                            <div class="col-md-5">
-                                <input id="password" type="password"
-                                       class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}"
-                                       name="password">
+                            <div class="col-md-7 offset-md-2">
+                                <label for="password" class="col-form-label text-md-left">{{ __('Пароль') }}</label>
+                                <input id="password" type="text" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}  offset-md-4 text-md-right" name="password">
 
                                 @if ($errors->has('password'))
                                     <span class="invalid-feedback" role="alert">
@@ -69,14 +65,18 @@
                         </div>
 
                         <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Login') }}
-                                </button>
-
-                                <a class="btn btn-link" href="{{ route('resetAction') }}">
-                                    {{ __('Forgot Your Password?') }}
+                            <div class="col-md-5 offset-md-5">
+                                <a href="{{ route('resetAction') }}">
+                                    {{ __('Forgot Password?') }}
                                 </a>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-0">
+                            <div class="col-md-5 offset-md-5">
+                                <button type="submit" class="btn btn-primary login-submit">
+                                    {{ __('Отправить') }}
+                                </button>
                             </div>
                         </div>
                     </form>

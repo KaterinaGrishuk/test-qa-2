@@ -24,11 +24,12 @@
         </div>
     </section>
 <section class="description-text-register">
+    <img src="{{ asset('images/register.png') }}" alt="">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid, animi at blanditiis dicta distinctio explicabo id laborum, modi quam quia quod repellat rerum saepe tempora totam ut voluptate voluptatum. Beatae dicta distinctio dolorem ea esse est fugit iusto labore natus similique. Aspernatur consectetur, eaque est illo laboriosam, modi mollitia nam officia quam quod quos repellat saepe tempora? Assumenda, eum.</p>
-                <p>Ab cupiditate dolorem natus nihil obcaecati porro suscipit voluptate. Architecto assumenda consequatur culpa dolorum eligendi facere veniam? Doloremque eius fuga minus quod!</p>
+                <p class="register-content"><b>A software quality assurance engineer</b> is involved in tasks that include software design writing source code control of source code reviewing code configuration management change management program testing integration of software and release management processHe or she will typically break up the entire process <span>into goals such as verifications activities</span> measurements abilities and commitments By doing this they can not only keep the task from becoming overwhelming but maintain complete control over the entire project as well.</p>
+                <p class="register-text">Softwarequalityassurance engineers must also be able to see to it that the final product not only meets with company and governmental guidelines but also reaches the consumer market at the time appointed by the company  Delays can be very costly for the company  so the software quality assurance engineer must work closely with all departments to make sure the software project is not only on time but on budget as well.</p>
             </div>
         </div>
     </div>

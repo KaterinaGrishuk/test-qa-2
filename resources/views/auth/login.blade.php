@@ -15,15 +15,25 @@
     <section class="description-text-login">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid, animi at blanditiis
-                        dicta distinctio explicabo id laborum, modi quam quia quod repellat rerum saepe tempora totam ut
-                        voluptate voluptatum. Beatae dicta distinctio dolorem ea esse est fugit iusto labore natus
-                        similique. Aspernatur consectetur, eaque est illo laboriosam, modi mollitia nam officia quam
-                        quod quos repellat saepe tempora? Assumenda, eum.</p>
-                    <p>Ab cupiditate dolorem natus nihil obcaecati porro suscipit voluptate. Architecto assumenda
-                        consequatur culpa dolorum eligendi facere veniam? Doloremque eius fuga minus quod!</p>
+                <div class="col-md-12 text-center">
+                    <p>Software testers play a critical role in application deve|opment. <span>They are quality assurance experts who put applications through the wringer to root out bugs, poor performance, functional, scalability, user acceptance – at different stages of the software life cycle.</span> Because s</p>
                 </div>
+                <div class="part-2 col-md-12 text-left">
+                    <p>oftware testing is so emportant to the quality and usability of the final produuuct, testers are brought in at the planning and design stage, and often remain involved throughout post-re-lease support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="description-img-login">
+        <img src="{{ asset('images/login-1.jpg') }}" alt="logo">
+    </section>
+    <section class="description-text-login">
+        <div class="container">
+            <div class="row">
+                <div class="part-3 col-md-5 offset-md-7">
+                    <p class="text-center"><span>The software tester is an unsung hero для most development projects. </span>They save end usErs from working with highly buggy soft</p>
+                </div>
+                <p class="text-right">ware or applications that just don't work well&, greatly reducing tech support calls from frustrated customers. They also make the development team and the software vendor looк good in the eyes of customers.</p>
             </div>
         </div>
     </section>
@@ -64,7 +74,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group row mb-0">
+                        <div class="form-group row mb-2">
                             <div class="col-md-5 offset-md-5">
                                 <a href="{{ route('resetAction') }}">
                                     {{ __('Forgot Password?') }}

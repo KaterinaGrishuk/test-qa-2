@@ -114,7 +114,7 @@ footer {
 }
 
 .login-submit {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .success-reset {
@@ -161,11 +161,7 @@ footer {
 }
 
 .btn-home-page {
-    margin: 70px auto 80px;
-}
-
-.register-text {
-    line-height: 50px;
+    margin: 180px auto 80px;
 }
 
 .description-text-register {
@@ -174,7 +170,7 @@ footer {
 }
 
 .description-text-register .register-content{
-    text-indent: 100px;
+    text-indent: 50px;
 }
 
 .description-text-register .register-content span{
@@ -183,6 +179,10 @@ footer {
 
 .description-text-register img{
     position: absolute;
-    top: 160px;
+    top: 28px;
     right: 0;
+}
+
+.login-wrap {
+    margin-top: 50px;
 }

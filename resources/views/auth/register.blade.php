@@ -28,8 +28,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p class="register-content"><b>A software quality assurance engineer</b> is involved in tasks that include software design writing source code control of source code reviewing code configuration management change management program testing integration of software and release management processHe or she will typically break up the entire process <span>into goals such as verifications activities</span> measurements abilities and commitments By doing this they can not only keep the task from becoming overwhelming but maintain complete control over the entire project as well.</p>
-                <p class="register-text">Softwarequalityassurance engineers must also be able to see to it that the final product not only meets with company and governmental guidelines but also reaches the consumer market at the time appointed by the company  Delays can be very costly for the company  so the software quality assurance engineer must work closely with all departments to make sure the software project is not only on time but on budget as well.</p>
+                <p class="register-content">A softwarequalityassuranceengineer is involved in tasks that include software design, writing source code, control of source code, reviewing code, configuration management, change management, program testing, integration of software, and release management process. He or she will typically break up the entire process into goals such as verifications, activities, measurements, abilities, and commitments. By doing this they can not only keep the task from becoming overwhelming, but maintain complete control over the entire project as well.</p>
             </div>
         </div>
     </div>

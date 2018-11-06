@@ -54,8 +54,8 @@
 
 
         <div class="btn-home-page d-flex justify-content-between">
-            <a href="{{ route('loginAction') }}" class="sign-button btn btn-primary">Sign In</a>
-            <a href="{{ route('registerAction') }}" class="sign-button menu btn btn-secondary">Sign Up</a>
+            <a href="{{ route('loginAction') }}" class="sign-button btn btn-primary">Sing In</a>
+            <a href="{{ route('registerAction') }}" class="sign-button menu btn btn-secondary">Sing Up</a>
         </div>
 
     </div>

@@ -15,13 +15,5 @@ class FooterController extends Controller
     {
         return redirect()->route('qualityRedirect');
     }
-
-    /**
-     * @return \Illuminate\Http\Response
-     */
-    public function whySyberryRedirect()
-    {
-        return redirect()->route('resetIndex');
-    }
 }
 

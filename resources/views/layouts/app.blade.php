@@ -55,7 +55,7 @@
                         <ul>
                             <li><a>Contact Us</a></li>
                             <li><a href="/about">About Cours</a></li>
-                            <li><a href="{{ route('quality') }}">Why Syberry</a></li>
+                            <li><a href="{{ route('whySyberry') }}">Why Syberry</a></li>
                         </ul>
                     </div>
                 </div>

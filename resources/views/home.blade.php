@@ -11,9 +11,9 @@
                                 Menu
                             </button>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="{{ route('loginIndex') }}">Sign In</a>
+                                <a class="dropdown-item" href="{{ route('loginIndex') }}">Sign in</a>
                                 <a class="dropdown-item" href="{{ route('registerIndex') }}">Sign up</a>
-                                <a class="dropdown-item" href="">Contact us</a>
+                                <a class="dropdown-item" href="{{ route('whySyberry') }}">Why Syberry</a>
                             </div>
                         </div>
                     </div>

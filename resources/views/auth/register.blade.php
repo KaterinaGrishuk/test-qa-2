@@ -101,7 +101,7 @@
 
                         <div class="form-group row">
                             <div class="col-md-8 offset-md-2">
-                                <label for="email">*{{ __('auth.email') }}</label>
+                                <label for="email"><span class="required">*</span>{{ __('auth.email') }}</label>
                                 <input id="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}">
 
                                 @if ($errors->has('email'))

@@ -22,5 +22,6 @@ Route::post('/login', 'LoginController@loginAction')->name('loginAction');
 Route::get('/resetPassword', 'ResetPasswordController@index')->name('resetIndex');
 Route::post('/resetPassword', 'ResetPasswordController@resetAction')->name('resetAction');
 
+Route::get('/why-syberry', 'SyberryInfoController@whySyberryAction')->name('whySyberry');
+
 Route::get('/quality', 'FooterController@qualityRedirect')->name('quality');
-Route::get('/whySyberry', 'FooterController@whySyberryRedirect')->name('whySyberry');

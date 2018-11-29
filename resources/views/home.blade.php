@@ -11,9 +11,9 @@
                                 Menu
                             </button>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#"></a>
-                                <a class="dropdown-item" href="#"></a>
-                                <a class="dropdown-item" href="#"></a>
+                                <a class="dropdown-item" href="{{ route('loginIndex') }}">Sign In</a>
+                                <a class="dropdown-item" href="{{ route('registerIndex') }}">Sign up</a>
+                                <a class="dropdown-item" href="">Contact us</a>
                             </div>
                         </div>
                     </div>
@@ -30,10 +30,13 @@
             </div>
         </section>
 
-        <div class="description">
-            <h1 class="text-right">Good luck!</h1>
-        </div>
+        <section>
 
+                <div class="description-text-header good-luck">
+                    <h1 class="text-right" style="margin-right: 410px;">Good luck!</h1>
+                </div>
+
+        </section>
 
         <div class="btn-home-page">
             <div class="container d-flex justify-content-between">

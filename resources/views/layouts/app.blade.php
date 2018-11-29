@@ -49,7 +49,7 @@
     @section('footer')
         <footer class="text-muted d-flex navbar-laravel">
             <div class="container d-flex justify-content-between">
-                <div class="footer-text d-flex align-items-center">2017 © All rights reserved. Syberry Corporation</div>
+                <div class="footer-text d-flex align-items-center">2017 © All rights reserved. <span>Syberry Corporation</span></div>
                 <div class="footer-menu d-flex align-items-center">
                     <div class="menu-list">
                         <ul>

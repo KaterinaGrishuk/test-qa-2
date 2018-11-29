@@ -71,9 +71,9 @@
                         </div>
 
                         <div class="form-group row">
-                            <div class="col-md-6 offset-md-3">
-                                <div class="text-center">
-                                    <label for="phone" class="text-center"><span class="required">*</span>{{ __('auth.phone') }}</label>
+                            <div class="col-md-8 offset-md-2">
+                                <div>
+                                    <label for="phone"><span class="required">*</span>{{ __('auth.phone') }}</label>
                                 </div>
 
                                 <input id="phone" type="text" class="form-control{{ $errors->has('phone') ? ' is-invalid' : '' }}" name="phone" value="{{ old('phone') }}">
@@ -87,7 +87,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <div class="col-md-6 offset-md-4">
+                            <div class="col-md-8 offset-md-2">
                                 <label for="dateOfBirth">{{ __('auth.dateOfBirth') }}</label>
                                 <input id="dateOfBirth" type="text" class="form-control{{ $errors->has('dateOfBirth') ? ' is-invalid' : '' }}" name="dateOfBirth" value="{{ old('dateOfBirth') }}">
 
@@ -115,7 +115,7 @@
                         <div class="form-group row">
                             <div class="col-md-8 offset-md-2">
                                 <label for="password"><span class="required">*</span>{{ __('auth.password') }}</label>
-                                <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password">
+                                <input id="password" type="text" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password">
 
                                 @if ($errors->has('password'))
                                     <span class="invalid-feedback" role="alert">
@@ -133,7 +133,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <div class="col-md-6 offset-md-3">
+                            <div class="col-md-8 offset-md-2">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
@@ -145,7 +145,7 @@
                         </div>
                         <div class="form-group row">
                             <div class="col-md-8 offset-md-2">
-                                <div class="form-check">
+                                <div class="form-check recaptcha">
                                     {!! NoCaptcha::renderJs() !!}
                                     {!! NoCaptcha::display() !!}
                                 </div>

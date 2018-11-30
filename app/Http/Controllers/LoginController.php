@@ -1,16 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: EkaterinaGrishuk
- * Date: 11/2/2018
- * Time: 1:49 PM
- */
 
 namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Session;
 use Validator;
 
 /**
@@ -49,6 +44,8 @@ class LoginController
             return redirect()->route('loginIndex')->with('message', 'Юзер не существует. Проверьте Email и Password');
         }
 
-        return redirect()->route('registerRedirect');
+        Session::put('isProfileRedirect', 1);
+
+        return redirect()->route('profileIndex', ['id' => $user->id]);
     }
 }

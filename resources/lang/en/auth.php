@@ -23,6 +23,7 @@ return [
     'password' => 'Pasword',
     'confirmPassword' => 'Confirm Pasword',
     'capcha' => 'Capcha',
-
+    'age' => 'Age',
+    'gender' => 'Gender'
 
 ];
